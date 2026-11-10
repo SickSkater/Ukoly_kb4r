@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "np",
+    "Definition": "notepad.exe"
+  },
+  {
+    "Name": "ct",
+    "Definition": "control.exe"
+  }
+]

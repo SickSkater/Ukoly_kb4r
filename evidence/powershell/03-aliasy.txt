@@ -1,0 +1,17 @@
+ULOHA 3 - ALIASY NP A CT
+Skript: aliases\AliasRoundTrip.ps1
+
+OK: vytvoření
+Záloha JSON: .\evidence\powershell\alias-run\aliases.json
+Záloha XML:  .\evidence\powershell\alias-run\aliases.xml
+OK: smazání před JSON
+OK: obnovení z JSON
+OK: smazání před XML
+OK: obnovení z XML
+
+Name Definition
+---- ----------
+np   notepad.exe
+ct   control.exe
+
+

@@ -1,0 +1,13 @@
+ULOHA 4A - PALINDROMY
+Skript: scripts\Test-Palindrom.ps1
+
+
+Text                 JePalindrom
+----                 -----------
+Jelenovi pivo nelej         True
+Kobyla má malý bok          True
+Kupředu udeř puk            True
+Dal kopat Ota poklad        True
+Toto není palindrom        False
+
+

@@ -1,0 +1,124 @@
+C¡l: WIN11 (innotek GmbH, VirtualBox)
+Win32_Printer: 86 vlastnost¡, 11 metod
+
+Name                            CimType                              Flags
+----                            -------                              -----
+Caption                          String      Property, ReadOnly, NullValue
+Description                      String      Property, ReadOnly, NullValue
+InstallDate                    DateTime      Property, ReadOnly, NullValue
+Name                             String      Property, ReadOnly, NullValue
+Status                           String      Property, ReadOnly, NullValue
+Availability                     UInt16      Property, ReadOnly, NullValue
+ConfigManagerErrorCode           UInt32      Property, ReadOnly, NullValue
+ConfigManagerUserConfig         Boolean      Property, ReadOnly, NullValue
+CreationClassName                String      Property, ReadOnly, NullValue
+DeviceID                         String Property, Key, ReadOnly, NullValue
+ErrorCleared                    Boolean      Property, ReadOnly, NullValue
+ErrorDescription                 String      Property, ReadOnly, NullValue
+LastErrorCode                    UInt32      Property, ReadOnly, NullValue
+PNPDeviceID                      String      Property, ReadOnly, NullValue
+PowerManagementCapabilities UInt16Array      Property, ReadOnly, NullValue
+PowerManagementSupported        Boolean      Property, ReadOnly, NullValue
+StatusInfo                       UInt16      Property, ReadOnly, NullValue
+SystemCreationClassName          String      Property, ReadOnly, NullValue
+SystemName                       String      Property, ReadOnly, NullValue
+AvailableJobSheets          StringArray      Property, ReadOnly, NullValue
+Capabilities                UInt16Array      Property, ReadOnly, NullValue
+CapabilityDescriptions      StringArray      Property, ReadOnly, NullValue
+CharSetsSupported           StringArray      Property, ReadOnly, NullValue
+CurrentCapabilities         UInt16Array      Property, ReadOnly, NullValue
+CurrentCharSet                   String      Property, ReadOnly, NullValue
+CurrentLanguage                  UInt16      Property, ReadOnly, NullValue
+CurrentMimeType                  String      Property, ReadOnly, NullValue
+CurrentNaturalLanguage           String      Property, ReadOnly, NullValue
+CurrentPaperType                 String      Property, ReadOnly, NullValue
+DefaultCapabilities         UInt16Array      Property, ReadOnly, NullValue
+DefaultCopies                    UInt32      Property, ReadOnly, NullValue
+DefaultLanguage                  UInt16      Property, ReadOnly, NullValue
+DefaultMimeType                  String      Property, ReadOnly, NullValue
+DefaultNumberUp                  UInt32      Property, ReadOnly, NullValue
+DefaultPaperType                 String      Property, ReadOnly, NullValue
+DetectedErrorState               UInt16      Property, ReadOnly, NullValue
+ErrorInformation            StringArray                Property, NullValue
+HorizontalResolution             UInt32      Property, ReadOnly, NullValue
+JobCountSinceLastReset           UInt32      Property, ReadOnly, NullValue
+LanguagesSupported          UInt16Array      Property, ReadOnly, NullValue
+MarkingTechnology                UInt16      Property, ReadOnly, NullValue
+MaxCopies                        UInt32      Property, ReadOnly, NullValue
+MaxNumberUp                      UInt32      Property, ReadOnly, NullValue
+MaxSizeSupported                 UInt32      Property, ReadOnly, NullValue
+MimeTypesSupported          StringArray      Property, ReadOnly, NullValue
+NaturalLanguagesSupported   StringArray      Property, ReadOnly, NullValue
+PaperSizesSupported         UInt16Array      Property, ReadOnly, NullValue
+PaperTypesAvailable         StringArray      Property, ReadOnly, NullValue
+PrinterStatus                    UInt16      Property, ReadOnly, NullValue
+TimeOfLastReset                DateTime      Property, ReadOnly, NullValue
+VerticalResolution               UInt32      Property, ReadOnly, NullValue
+Attributes                       UInt32                Property, NullValue
+AveragePagesPerMinute            UInt32      Property, ReadOnly, NullValue
+Comment                          String                Property, NullValue
+Default                         Boolean      Property, ReadOnly, NullValue
+DefaultPriority                  UInt32                Property, NullValue
+Direct                          Boolean                Property, NullValue
+DoCompleteFirst                 Boolean                Property, NullValue
+DriverName                       String                Property, NullValue
+EnableBIDI                      Boolean                Property, NullValue
+EnableDevQueryPrint             Boolean                Property, NullValue
+ExtendedDetectedErrorState       UInt16      Property, ReadOnly, NullValue
+ExtendedPrinterStatus            UInt16      Property, ReadOnly, NullValue
+Hidden                          Boolean                Property, NullValue
+KeepPrintedJobs                 Boolean                Property, NullValue
+Local                           Boolean                Property, NullValue
+Location                         String                Property, NullValue
+Network                         Boolean                Property, NullValue
+Parameters                       String                Property, NullValue
+PortName                         String                Property, NullValue
+PrinterPaperNames           StringArray      Property, ReadOnly, NullValue
+PrinterState                     UInt32      Property, ReadOnly, NullValue
+PrintJobDataType                 String                Property, NullValue
+PrintProcessor                   String                Property, NullValue
+Priority                         UInt32                Property, NullValue
+Published                       Boolean                Property, NullValue
+Queued                          Boolean                Property, NullValue
+RawOnly                         Boolean                Property, NullValue
+SeparatorFile                    String                Property, NullValue
+ServerName                       String      Property, ReadOnly, NullValue
+Shared                          Boolean                Property, NullValue
+ShareName                        String                Property, NullValue
+SpoolEnabled                    Boolean      Property, ReadOnly, NullValue
+StartTime                      DateTime                Property, NullValue
+UntilTime                      DateTime                Property, NullValue
+WorkOffline                     Boolean                Property, NullValue
+
+
+
+Tiskov‚ fronty pred zmenou:
+
+C: pred zmenou: Label='Windows', FileSystem='NTFS'
+Ucty bez evidovan‚ho LastLogon podle Get-LocalUser (neprukazn‚ pro nikdy nepouzit‚):
+
+Name               Enabled LastLogon
+----               ------- ---------
+Administrator        False          
+DefaultAccount       False          
+Guest                False          
+WDAGUtilityAccount   False          
+
+
+
+Uzamcen‚ m¡stn¡ £cty podle Win32_UserAccount:
+
+Profily bez evidovan‚ho prihl sen¡ podle Win32_NetworkLoginProfile (neprukazn‚):
+
+WARNING: Fronta Fax ve VM chyb¡. Jej¡ Location se nemenila; z dn  n hradn¡ fronta nebyla vytvorena.
+C: po zmene: Label='System'
+
+
+ComputerName : WIN11
+FaxStatus    : Chyb¡
+FaxLocation  : 
+DiskCStatus  : Zmeneno a overeno
+DiskCLabel   : System
+
+
+

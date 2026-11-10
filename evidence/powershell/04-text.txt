@@ -1,0 +1,10 @@
+ULOHA 4B - ANALYZA TEXTU
+Skript: scripts\Analyzuj-Text.ps1
+
+
+ZnakuSMezerami : 219
+ZnakuBezMezer  : 189
+Samohlasek     : 77
+Slov           : 31
+
+

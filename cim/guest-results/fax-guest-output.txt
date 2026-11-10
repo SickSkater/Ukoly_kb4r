@@ -1,0 +1,15 @@
+C¡l: WIN11 (innotek GmbH, VirtualBox)
+Windows Fax and Scan pred zmenou: NotPresent
+Windows Fax and Scan po instalaci: Installed
+Fax pred zmenou: DriverName='Microsoft Shared Fax Driver', PortName='SHRFAX:', Location=''
+Fax po zmene: DriverName='Microsoft Shared Fax Driver', PortName='SHRFAX:', Location='Ucebna 101'
+
+
+ComputerName : WIN11
+FaxStatus    : Nastaveno a overeno
+FaxDriver    : Microsoft Shared Fax Driver
+FaxPort      : SHRFAX:
+FaxLocation  : Ucebna 101
+
+
+
