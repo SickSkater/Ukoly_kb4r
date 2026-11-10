@@ -8,7 +8,7 @@ Změny štítku disku a umístění faxu jsem provedl ve VM, protože jsem potř
 
 ### Prostředí a pořadí kroků
 
-1. Nainstaloval jsem do VM Guest Additions 7.2.2, abych mohl předat skripty a zkopírovat výsledky zpět přes sdílené složky VirtualBoxu. Soubory skriptů a výstupů jsou v repozitáři ve složce `cim/`.
+1. Nainstaloval jsem do VM Guest Additions 7.2.2, abych mohl předat skripty a zkopírovat výsledky zpět přes sdílené složky VirtualBoxu. Složku `cim/` jsem připojil do VM pouze ke čtení a `cim/guest-results/` jako druhou sdílenou složku pro zápis. Přesné názvy sdílených složek jsou uvedené ve spouštěčích `.cmd`.
 2. Jako správce jsem ve VM spustil [Run-GuestCim.cmd](../cim/Run-GuestCim.cmd), který volá [Invoke-LocalGuestCim.ps1](../cim/Invoke-LocalGuestCim.ps1). Skript ověřuje název `win11` a identitu VirtualBoxu, aby se změna neprovedla na jiném Windows. Vypsal třídu tiskáren a místní účty a změnil štítek `C:`.
 3. Při prvním běhu jsem zjistil, že ve VM chybí fronta `Fax`. Spustil jsem proto jako správce [Run-GuestFax.cmd](../cim/Run-GuestFax.cmd), který volá [Complete-GuestFax.ps1](../cim/Complete-GuestFax.ps1). Funkce Windows Fax and Scan se doinstalovala a skript nastavil `Fax.Location` přes CIM. Běh skončil kódem `0`.
 4. Původní výstupy jsem uložil na plochu účtu `student` ve VM jako `cim-guest-output.txt` a `fax-guest-output.txt`. Kopie jsou v repozitáři jako [protokol disku a účtů](../cim/guest-results/cim-guest-output-utf8.txt) a [protokol faxu](../cim/guest-results/fax-guest-output-utf8.txt).
